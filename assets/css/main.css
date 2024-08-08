@@ -1,0 +1,113 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/232/274/original/green-casino-poker-table-texture-game-background-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.cajaContent{
+    background-color: rgba(235, 229, 229, 0.733);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+#cajaResultado{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#cajaJugadores{
+    padding: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    display: none;
+}
+
+#cajaJugadores .col {
+    border: 1px solid #ddd; /* Cambiado a un borde más fino y gris claro */
+    background-color: #f7f7f7; /* Cambiado a un fondo más claro y neutro */
+    border-radius: 15px; /* Aumentado el radio de curvatura para dar un aspecto más suave */
+    text-align: center;
+    padding: 10px; /* Aumentado el padding para dar más espacio entre el texto y el borde */
+    font-size: 22px; /* Aumentado el tamaño de fuente para dar más importancia al texto */
+    font-family: 'Open Sans', sans-serif; /* Cambiado a una fuente más moderna y elegante */
+    font-weight: 700; /* Aumentado el peso de la fuente para dar más énfasis al texto */
+    margin: 5px; /* Aumentado el margen para dar más espacio entre las cajas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Agregado una sombra para dar un aspecto más profundo */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #ddd;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f7f7f7;
+    font-weight: 700;
+}
+
+.table td {
+    font-size: 18px;
+}
+
+.table tr:hover {
+    background-color: #eaeaea;
+}
+
+#ganador {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00698f; /* Azul oscuro */
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f7f7f7; /* Fondo gris claro */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#ganador b {
+    color: #00698f; /* Azul oscuro */
+    font-size: 24px;
+}
+
+#historialTiradas {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7; /* Fondo gris claro */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#historialTiradas p {
+    margin-bottom: 10px;
+}
+
+#historialTiradas .resumen {
+    font-weight: 700;
+    color: #00698f; /* Azul oscuro */
+}
+
+#historialTiradas .ganador {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00698f; /* Azul oscuro */
+    text-align: center;
+    margin-top: 20px;
+}
